@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Customer.DAL\Customer.DAL.csproj" />
+    <ProjectReference Include="..\Customer.PresentationLayer\Customer.PresentationLayer.csproj" />
+  </ItemGroup>
+
+</Project>
